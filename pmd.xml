@@ -5,12 +5,12 @@
          xsi:schemaLocation="http://pmd.sourceforge.net/ruleset/2.0.0 https://pmd.sourceforge.io/ruleset_2_0_0.xsd">
 
     <description>My Rule</description>
-    <exclude-pattern>/src/maim/java/CPUPlayer.java</exclude-pattern>
-    <exclude-pattern>/src/maim/java/GameDriver.java</exclude-pattern>
-    <exclude-pattern>/src/maim/java/HumanPlayer.java</exclude-pattern>
-    <exclude-pattern>/src/maim/java/Monster.java</exclude-pattern>
-    <exclude-pattern>/src/maim/java/Move.java</exclude-pattern>
-    <exclude-pattern>/src/maim/java/Move.java</exclude-pattern>
+    <exclude-pattern>.*/src/main/java/CPUPlayer.*</exclude-pattern>
+    <exclude-pattern>.*/src/main/java/GameDriver.*</exclude-pattern>
+    <exclude-pattern>.*/src/main/java/HumanPlayer.*</exclude-pattern>
+    <exclude-pattern>.*/src/main/java/Monster.*</exclude-pattern>
+    <exclude-pattern>.*/src/main/java/Move.*</exclude-pattern>
+    <exclude-pattern>.*/src/main/java/Move.*</exclude-pattern>
     <rule ref ="category/java/errorprone.xml">
 
     </rule>
